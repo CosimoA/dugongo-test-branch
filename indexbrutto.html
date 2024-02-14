@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
-    <style>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"
+			integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
 
-    </style>
-</head>
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+			}
+			.container-fluid {
+				border: 1px solid black;
+			}
+			.col-10 {
+				background-color: blue;
+			}
+		</style>
+	</head>
 
-<body>
-    <div class="card">
-        <div class="card-body">
-          This is some text within a card body.
-        </div>
-        <!-- FOOTER -->
-        <div class="card-body">
-          <a href="#" class="card-link">Cerca su Wikipedia</a>
-          <a href="#" class="card-link">Prova con altri animali!</a>
-        </div>
-      </div>
-</body>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-10">
+					<div class="card">
+						<div class="card-body">This is some text within a card body.</div>
+            <!-- FOOTER -->
+            <div class="card-body">
+              <a href="#" class="card-link">Cerca su Wikipedia</a>
+              <a href="#" class="card-link">Prova con altri animali!</a>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
