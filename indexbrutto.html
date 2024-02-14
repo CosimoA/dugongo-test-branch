@@ -11,13 +11,25 @@
 			referrerpolicy="no-referrer"
 		></script>
 
-		<style></style>
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+			}
+			.container-fluid {
+				border: 1px solid black;
+			}
+			.col-10 {
+				background-color: blue;
+			}
+		</style>
 	</head>
 
 	<body>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-12">
+				<div class="col-10">
 					<div class="card">
 						<div class="card-body">This is some text within a card body.</div>
 					</div>
